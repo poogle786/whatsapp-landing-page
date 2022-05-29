@@ -1,4 +1,6 @@
 @import './common/variables.css';
+@import './common/common.css';
+@import './common/animation.css';
 
 body {
   margin: 0;
