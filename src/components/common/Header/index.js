@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <div className="menu-wrapper">
         <div className={`mobile-menu only-mobile ${showMenu ? "overlay" : ""}`}>
-          <div className="mobile-navar">
+          <div className="mobile-navbar">
             <div className="mobile-nav-item">WHATSAPP WEB</div>
             <div className="mobile-nav-item">FEATURES</div>
             <div className="mobile-nav-item">DOWNLOAD</div>

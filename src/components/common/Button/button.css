@@ -9,7 +9,6 @@
     width: max-content;
 }
 
-
 @media all and (max-width: 767px){
     .button-wrapper{
         font-size: 18px;
