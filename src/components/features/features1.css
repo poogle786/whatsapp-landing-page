@@ -1,31 +1,31 @@
-.feature {
+.feature1 {
   display: flex;
   justify-content: center;
   background-color: #397572;
   margin: 30px 30px 30px 30px;
 }
 
-.feature__image {
+.feature1__image {
   height: 400px;
   width: 300px;
   margin: 50px 100px;
 }
 
-.feature__title {
+.feature1__title {
   font-size: 30px;
-  margin: 50px;
+  margin: 50px 100px;
   padding-top: 10px;
 }
 
-.feature__heading {
+.feature1__heading {
   font-size: 40px;
-  margin: 20px 50px;
+  margin: 50px 100px;
   font-weight: 800;
 }
 
-.feature__body {
+.feature1__body {
   font-size: 25px;
   max-width: 70%;
-  margin: 50px;
+  margin: 50px 100px;
   color: rgb(224, 243, 237);
 }
