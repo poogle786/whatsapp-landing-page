@@ -1,7 +1,7 @@
 .feature1 {
   display: flex;
   justify-content: center;
-  background-color: #397572;
+  background-color: var(--bg-green);
   margin: 30px 30px 30px 30px;
 }
 
