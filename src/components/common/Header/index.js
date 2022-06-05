@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import "./header.css";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -25,19 +26,21 @@ const Header = () => {
           />
           <div className="only-mobile mobile-menu-button-wrapper">
             <button
-              class={`hamburger hamburger--spring ${
+              className={`hamburger hamburger--spring ${
                 showMenu ? "is-active" : ""
               }`}
               type="button"
               onClick={toggleMenu}
             >
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
+              <span className="hamburger-box">
+                <span className="hamburger-inner"></span>
               </span>
             </button>
           </div>
           <div className="flex non-mobile">
-            <div className="header-nav-item">WHATSAPP WEB</div>
+            <div className="header-nav-item">
+              {/* <Link to="https://web.whatsapp.com/">WHATSAPP WEB</Link> */}
+            </div>
             <div className="header-nav-item">FEATURES</div>
             <div className="header-nav-item">DOWNLOAD</div>
             <div className="header-nav-item">SECURITY</div>

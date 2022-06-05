@@ -1,17 +1,17 @@
 import React from "react";
 import Feature1 from "./feature1";
 import Feature3 from "./feature3";
-import "./features2.css"
-import image1 from "../images/feature1.png"
-import image2 from "../images/feature2.png"
-import image3 from "../images/feature3.png"
-import image4 from "../images/feature4.png"
-import image5 from "../images/feature5.png"
-import image6 from "../images/feature6.png"
+import "./features2.css";
+import image1 from "../images/feature1.png";
+import image2 from "../images/feature2.png";
+import image3 from "../images/feature3.png";
+import image4 from "../images/feature4.png";
+import image5 from "../images/feature5.png";
+import image6 from "../images/feature6.png";
 
 function Feature2() {
   return (
-    <div className="main__feature">
+    <div className="main__feature" id="main__feature">
       <Feature1
         title="TEXTS"
         heading="Simple, Reliable Messaging"
