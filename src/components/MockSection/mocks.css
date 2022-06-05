@@ -15,23 +15,23 @@
     height: 800px;
 }
 .el{
-    transform: translate(-80%,30%);
+    transform: translate(-80%,60%);
     z-index: 98;
 }
 .l{
-    transform: translate(-65%,21%);
+    transform: translate(-65%,51%);
     z-index: 99;
 }
 .c{
-    transform: translate(-50%,13.7%);
+    transform: translate(-50%,43.7%);
     z-index: 100;
 }
 .r{
-    transform: translate(-35%,21%);
+    transform: translate(-35%,51%);
     z-index: 99;
 }
 .er{
-    transform: translate(-20%,30%);
+    transform: translate(-20%,60%);
     z-index: 98;
 }
 

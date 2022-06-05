@@ -35,11 +35,11 @@ const Mockups = () => {
   });
   return (
     <div
-      className={`mockup-showcase ${showAnimation ? "scale-up-bottom" : ""}`}
+      className={`mockup-showcase`}
       ref={ref}
     >
       {showAnimation && (
-        <div className="mockup-wrapper">
+        <div className={`mockup-wrapper ${showAnimation ? "scale-in-bottom" : ""}`}>
           <img src={el} alt="extreme-left" className="mockup-ui el" />
           <img src={l} alt="left" className="mockup-ui l" />
           <img src={c} alt="center" className="mockup-ui c" />
