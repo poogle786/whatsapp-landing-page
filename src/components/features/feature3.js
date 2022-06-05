@@ -1,19 +1,21 @@
 import React from "react";
-import "./features1.css";
+import "./features.css";
 
-function Feature3({title, heading, body, image}) {
+function Feature3({ title, heading, body, image }) {
   return (
-    <div className="feature1">
-      <div>
-        <h1 className="feature1__title">{title}</h1>
-        <div className="feature1__heading">{heading}</div>
-        <div className="feature1__body">{body}</div>
-      </div>
-      <div>
-        <img src={image} alt="" className="feature1__image"></img>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+          <img className="feature__image" src={image} alt="" />
+        </div>
+        <div className="feature__text col-lg-6 col-md-12 col-12">
+          <h2 className="feature__title">{title}</h2>
+          <h1 className="feature__heading">{heading}</h1>
+          <h5 className="feature__body">{body}</h5>
+        </div>
       </div>
     </div>
   );
-};
+}
 
 export default Feature3;
