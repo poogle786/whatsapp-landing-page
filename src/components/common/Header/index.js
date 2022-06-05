@@ -12,29 +12,19 @@ const Header = () => {
         <div className={`mobile-menu only-mobile ${showMenu ? "overlay" : ""}`}>
           <div className="mobile-navbar">
             <div className="mobile-nav-item">
-              <a href="https://web.whatsapp.com/" className="links">
-                WHATSAPP WEB
-              </a>
+              <a href="https://web.whatsapp.com/">WHATSAPP WEB</a>
             </div>
             <div className="mobile-nav-item">
-              <a href="#features" className="links">
-                FEATURES
-              </a>
+              <a href="#features">FEATURES</a>
             </div>
             <div className="mobile-nav-item">
-              <a href="#download" className="links">
-                DOWNLOAD
-              </a>
+              <a href="#download">DOWNLOAD</a>
             </div>
             <div className="mobile-nav-item">
-              <a href="#security" className="links">
-                SECURITY
-              </a>
+              <a href="#security">SECURITY</a>
             </div>
             <div className="mobile-nav-item">
-              <a href="https://faq.whatsapp.com/" className="links">
-                HELP CENTER
-              </a>
+              <a href="https://faq.whatsapp.com/">HELP CENTER</a>
             </div>
           </div>
         </div>
@@ -58,11 +48,21 @@ const Header = () => {
             </button>
           </div>
           <div className="flex non-mobile">
-            <div className="header-nav-item">WHATSAPP WEB</div>
-            <div className="header-nav-item">FEATURES</div>
-            <div className="header-nav-item">DOWNLOAD</div>
-            <div className="header-nav-item">SECURITY</div>
-            <div className="header-nav-item">HELP CENTER</div>
+            <div className="header-nav-item">
+              <a href="https://web.whatsapp.com/">WHATSAPP WEB</a>
+            </div>
+            <div className="header-nav-item">
+              <a href="#features">FEATURES</a>
+            </div>
+            <div className="header-nav-item">
+              <a href="#download">DOWNLOAD</a>
+            </div>
+            <div className="header-nav-item">
+              <a href="#security">SECURITY</a>
+            </div>
+            <div className="header-nav-item">
+              <a href="https://faq.whatsapp.com/">HELP CENTER</a>
+            </div>
           </div>
         </div>
       </div>

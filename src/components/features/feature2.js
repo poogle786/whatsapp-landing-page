@@ -2,12 +2,14 @@ import React from "react";
 import Feature1 from "./feature1";
 import Feature3 from "./feature3";
 import "./features.css";
-import image1 from "../images/feature1.png";
-import image2 from "../images/feature2.png";
-import image3 from "../images/feature3.png";
-import image4 from "../images/feature4.png";
-import image5 from "../images/feature5.png";
-import image6 from "../images/feature6.png";
+import image1 from "../images/f1.svg";
+import image2 from "../images/f2.svg";
+import image3 from "../images/f3.svg";
+import image4 from "../images/f4.svg";
+import image5 from "../images/f5.svg";
+import image6 from "../images/f6.svg";
+import image7 from "../images/f7.svg";
+import image8 from "../images/f8.svg";
 
 function Feature2() {
   return (
@@ -17,7 +19,7 @@ function Feature2() {
           <Feature1
             title="TEXTS"
             heading="Simple, Reliable Messaging"
-            body="Message your friends and family for free*. WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees."
+            body="Message your friends and family for free*. WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at. Facere vero reprehenderit magni. Nostrum hic dicta doloremque quos rem omnis illo, accusantium exercitationem in ex. Nulla sapiente saepe et!"
             image={image1}
           />
           <Feature3
@@ -54,13 +56,13 @@ function Feature2() {
             title="VOICE MESSAGES"
             heading="Say What's On Your Mind"
             body="Sometimes, your voice says it all. With just one tap you can record a Voice Message, perfect for a quick hello or a longer story."
-            image={image4}
+            image={image7}
           />
           <Feature3
             title="DOCUMENTS"
             heading="Document Sharing Made Easy"
             body="Send PDFs, documents, spreadsheets, slideshows and more, without the hassle of email or file sharing apps. You can send documents up to 100 MB, so it's easy to get what you need over to who you want."
-            image={image3}
+            image={image8}
           />
         </div>
       </section>
