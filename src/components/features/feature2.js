@@ -1,7 +1,7 @@
 import React from "react";
 import Feature1 from "./feature1";
 import Feature3 from "./feature3";
-import "./features2.css";
+import "./features.css";
 import image1 from "../images/feature1.png";
 import image2 from "../images/feature2.png";
 import image3 from "../images/feature3.png";
