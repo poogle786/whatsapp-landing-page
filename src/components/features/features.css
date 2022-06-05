@@ -6,7 +6,9 @@
   justify-content: Top;
   height: 60vh;
 }
-
+.feature{
+  margin-top: 50px;
+}
 .feature__body {
   color: #fff;
   font-weight: 400;
