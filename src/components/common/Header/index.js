@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import "./header.css";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -45,43 +46,23 @@ const Header = () => {
           />
           <div className="only-mobile mobile-menu-button-wrapper">
             <button
-              class={`hamburger hamburger--spring ${
+              className={`hamburger hamburger--spring ${
                 showMenu ? "is-active" : ""
               }`}
               type="button"
               onClick={toggleMenu}
             >
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
+              <span className="hamburger-box">
+                <span className="hamburger-inner"></span>
               </span>
             </button>
           </div>
           <div className="flex non-mobile">
-            <div className="header-nav-item">
-              <a href="https://web.whatsapp.com/" className="links">
-                WHATSAPP WEB
-              </a>
-            </div>
-            <div className="header-nav-item">
-              <a href="#features" className="links">
-                FEATURES
-              </a>
-            </div>
-            <div className="header-nav-item">
-              <a href="#download" className="links">
-                DOWNLOAD
-              </a>
-            </div>
-            <div className="header-nav-item">
-              <a href="#security" className="links">
-                SECURITY
-              </a>
-            </div>
-            <div className="header-nav-item">
-              <a href="https://faq.whatsapp.com/" className="links">
-                HELP CENTER
-              </a>
-            </div>
+            <div className="header-nav-item">WHATSAPP WEB</div>
+            <div className="header-nav-item">FEATURES</div>
+            <div className="header-nav-item">DOWNLOAD</div>
+            <div className="header-nav-item">SECURITY</div>
+            <div className="header-nav-item">HELP CENTER</div>
           </div>
         </div>
       </div>
