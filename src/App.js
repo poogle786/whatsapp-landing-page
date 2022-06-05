@@ -1,6 +1,6 @@
 import Header from "./components/common/Header";
 import HeroSection from "./components/HeroSection";
-import Feature2 from "./components/features/feature2";
+// import Feature2 from "./components/features/feature2";
 import Mockups from "./components/MockSection";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <HeroSection />
       <Mockups />
-      <Feature2 />
+      {/* <Feature2 /> */}
     </>
   );
 }
