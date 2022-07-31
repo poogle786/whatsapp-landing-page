@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Feature2 from "./components/features/feature2";
 import Mockups from "./components/MockSection";
 import Security from "./components/SecuritySection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Mockups />
       <Feature2 />
       <Security />
+      <Footer />
     </>
   );
 }
