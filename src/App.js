@@ -1,9 +1,11 @@
 import Header from "./components/common/Header";
 import HeroSection from "./components/HeroSection";
-import Feature2 from "./components/features/feature2";
+import Feature from "./components/features/feature";
 import Mockups from "./components/MockSection";
 import Security from "./components/SecuritySection";
-import Footer from "./components/Footer";
+import Footer from "./components/common/Footer";
+import AppRating from "./components/ratings";
+import WindowPeak from "./components/window_peak";
 
 function App() {
   return (
@@ -11,8 +13,12 @@ function App() {
       <Header />
       <HeroSection />
       <Mockups />
-      <Feature2 />
+      <Feature />
       <Security />
+      <div className="non-mobile">
+        <WindowPeak />
+      </div>
+      <AppRating />
       <Footer />
     </>
   );

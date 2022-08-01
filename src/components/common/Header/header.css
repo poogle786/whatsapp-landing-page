@@ -16,7 +16,7 @@
 }
 
 .header-nav-item:hover {
-  color: greenyellow;
+  color: hsl(127,53%,61%);
 }
 
 .menu-wrapper {

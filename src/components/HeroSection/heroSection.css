@@ -13,6 +13,9 @@
     font-weight: 800;
     line-height: 100px;
 }
+/* span:hover{
+    color: hsl(127,53%,61%);
+} */
 .hero-subheading{
     width: 72%;
     font-size: 30px;

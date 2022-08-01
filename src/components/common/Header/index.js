@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 import "./header.css";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +17,7 @@ const Header = () => {
               <a href="#features">FEATURES</a>
             </div>
             <div className="mobile-nav-item">
-              <a href="#download">DOWNLOAD</a>
+              <a href="#ratings">DOWNLOAD</a>
             </div>
             <div className="mobile-nav-item">
               <a href="#security">SECURITY</a>
@@ -55,7 +54,7 @@ const Header = () => {
               <a href="#features">FEATURES</a>
             </div>
             <div className="header-nav-item">
-              <a href="#download">DOWNLOAD</a>
+              <a href="#ratings">DOWNLOAD</a>
             </div>
             <div className="header-nav-item">
               <a href="#security">SECURITY</a>
