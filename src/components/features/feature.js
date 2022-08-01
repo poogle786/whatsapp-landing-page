@@ -2,14 +2,14 @@ import React from "react";
 import Feature1 from "./feature1";
 import Feature2 from "./feature2";
 import "./features.css";
-import image1 from "../images/f1.svg";
+// import image1 from "../images/f1.svg";
 import image2 from "../images/f2.svg";
 import image3 from "../images/f3.svg";
-import image4 from "../images/f4.svg";
-import image5 from "../images/f5.svg";
+// import image4 from "../images/f4.svg";
+// import image5 from "../images/f5.svg";
 import image6 from "../images/f6.svg";
 import image7 from "../images/f7.svg";
-import image8 from "../images/f8.svg";
+// import image8 from "../images/f8.svg";
 
 function Feature() {
   return (
