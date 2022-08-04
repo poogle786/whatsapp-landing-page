@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./mocks.css";
-import el from "./mockups/el.png";
-import l from "./mockups/l.png";
-import c from "./mockups/c.png";
-import r from "./mockups/r.png";
-import er from "./mockups/er.png";
+import el from "./mockups/el.webp";
+import l from "./mockups/l.webp";
+import c from "./mockups/c.webp";
+import r from "./mockups/r.webp";
+import er from "./mockups/er.webp";
 
 const Mockups = () => {
   const [showAnimation, setShowAnimation] = useState(false);
