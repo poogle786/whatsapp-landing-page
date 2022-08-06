@@ -1,0 +1,28 @@
+.wrapper{
+    padding-top: 40px;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap: 2rem;
+    justify-content: center;
+}
+.cards{
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 00ms ease-in;
+}
+.card_img{
+    box-shadow: 0 2px 20px gray;
+    border-radius: 0.2rem;
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card_title{
+
+    padding: 1rem;
+}
+.cards:hover{
+    transform: scale(1.02);
+}
