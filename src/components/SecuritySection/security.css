@@ -62,4 +62,24 @@
         height: 480px;
         transform: translateX(10%);
     }
+    .screen-heading{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .screen-desc{
+        font-size: 18px;
+        margin-top: 44px;
+    }
+}@media all and (max-width: 1279px) {
+    .screen-heading{
+        font-size: 50px;
+        line-height: 50px;
+        padding-bottom: 30px;
+    }
+    .mobile-screen-img{
+        height: 400px;
+    }
+    .scroll-full-screen-wrapper{
+        width: 100%;
+    }
 }

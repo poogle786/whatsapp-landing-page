@@ -35,7 +35,7 @@ const data = [
 const Security = () => {
   const [currentImg, setCurrentImg] = useState(0);
   return (
-    <div className="max-width flex mobile-scroll " id="security">
+    <div className="max-width flex mobile-scroll" id="security">
       <div className="scroll-full-screen-wrapper">
         {data.map((screen, i) => (
           <div className="scroll-full-screen">
