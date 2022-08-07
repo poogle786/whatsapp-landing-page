@@ -28,7 +28,7 @@ function HeroSection() {
             for free, available on phones all over the world.
           </span>
         </div>
-        <Button buttonText={"Download"} />
+        <Button buttonText={"Download"} link={"https://web.whatsapp.com/"} />
       </div>
     </div>
   );

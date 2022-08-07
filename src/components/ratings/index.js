@@ -43,6 +43,7 @@ const AppRating = () => {
             prefix={getIosPrefix()}
             buttonText="Download the app"
             customClass="app-rating-button"
+            link="https://apps.apple.com/in/app/whatsapp-messenger/id310633997"
           />
         </div>
       </div>
@@ -65,6 +66,7 @@ const AppRating = () => {
             prefix={getAndroidPrefix()}
             buttonText="Download the app"
             customClass="app-rating-button"
+            link="https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_IN&gl=US"
           />
         </div>
       </div>

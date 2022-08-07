@@ -6,19 +6,34 @@ function VSection() {
   return (
     <div className="wrapper">
       <Cards
-        image="https://i.ytimg.com/an_webp/MbWFkusXmTA/mqdefault_6s.webp?du=3000&sqp=CKDLupcG&rs=AOn4CLDMdWSgPSLXRH3LMBu65C_Akw4hQA"
+        image="https://i.ytimg.com/vi/MbWFkusXmTA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBkxsXGMvabdcji_NBoYfQ9yDY1fQ"
         title="Its Between You"
         desc="WhatsApp #ItsBetweenYou Cut It Out (30 Sec, English Phonetics) Aasaan sa lagta hai apno ke beech"
+        link="https://www.youtube.com/watch?v=MbWFkusXmTA"
       />
       <Cards
-        image="https://i.ytimg.com/an_webp/0XwvQjYl_3U/mqdefault_6s.webp?du=3000&sqp=CLjjupcG&rs=AOn4CLANRNPfBSxvO-RQECZeXeP2jiZICA"
+        image="https://i.ytimg.com/vi/0XwvQjYl_3U/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCswgC-biFCZfwp6dSVQPXun6e_Qw"
         title="Message Privately"
         desc="WhatsApp #ItsBetweenYou Cut It Out (30 Sec, English Phonetics) Aasaan sa lagta hai apno ke beech"
+        link="https://www.youtube.com/watch?v=0XwvQjYl_3U"
       />
       <Cards
-        image="https://i.ytimg.com/an_webp/Hw35Z-SzA7o/mqdefault_6s.webp?du=3000&sqp=CO7XupcG&rs=AOn4CLAfo9qIzGlKA7NltH1YHVzcLm6q7A"
+        image="https://i.ytimg.com/vi/Hw35Z-SzA7o/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA_yNTVMOrBXPwbTFSNj3U89tg-WA"
         title="Introducing View Once"
         desc="WhatsApp #ItsBetweenYou Cut It Out (30 Sec, English Phonetics) Aasaan sa lagta hai apno ke beech"
+        link="https://www.youtube.com/watch?v=Hw35Z-SzA7o"
+      />
+      <Cards
+        image="https://i.ytimg.com/vi/75C3yYDbyBE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBei6nL6U4yTTCAjKNTkYuYXrP5yA"
+        title="Its Between You"
+        desc="WhatsApp #ItsBetweenYou Cut It Out (30 Sec, English Phonetics) Aasaan sa lagta hai apno ke beech"
+        link="https://www.youtube.com/watch?v=75C3yYDbyBE"
+      />
+      <Cards
+        image="https://i.ytimg.com/vi/wZ4pIXajdW8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAGS_evh11n7dewOoG5La0oSTIKbw"
+        title="Message Privately"
+        desc="WhatsApp #ItsBetweenYou Cut It Out (30 Sec, English Phonetics) Aasaan sa lagta hai apno ke beech"
+        link="https://www.youtube.com/watch?v=wZ4pIXajdW8"
       />
     </div>
   );
@@ -31,7 +46,7 @@ function Cards(props) {
         <h2 className="card_head">{props.title}</h2>
         <p className="card_desc">{props.desc}</p>
       </div>
-      <Button buttonText={"Watch"} />
+      <Button buttonText={"Watch"} link={props.link} />
     </div>
   );
 }

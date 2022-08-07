@@ -7,6 +7,7 @@ import Security from "./components/SecuritySection";
 import Footer from "./components/common/Footer";
 import AppRating from "./components/ratings";
 import WindowPeak from "./components/window_peak";
+import WindowPeak2 from "./components/window_peak2";
 import Vsection from "./components/videosSection";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       <Mockups />
       <Feature />
       <Vsection />
+      <div className="non-mobile">
+        <WindowPeak2 />
+      </div>
       <Security />
       <div className="non-mobile">
         <WindowPeak />

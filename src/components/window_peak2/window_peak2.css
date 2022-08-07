@@ -1,0 +1,9 @@
+.window-peak2{
+    background-image: url(https://static.whatsapp.net/rsrc.php/v3/yO/r/FsWUqRoOsPu.png);
+    cursor: pointer;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

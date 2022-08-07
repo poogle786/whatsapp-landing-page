@@ -1,14 +1,16 @@
 import React from "react";
 import "./button.css";
-const Button = ({ buttonText, onClick, customClass, prefix }) => {
+const Button = ({ buttonText, onClick, customClass, prefix, link }) => {
   return (
-    <div
-      className={`flex absolute-center button-wrapper ${customClass}`}
-      onClick={onClick}
-    >
-      {prefix}
-      {buttonText}
-    </div>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <div
+        className={`flex absolute-center button-wrapper ${customClass}`}
+        onClick={onClick}
+      >
+        {prefix}
+        {buttonText}
+      </div>
+    </a>
   );
 };
 

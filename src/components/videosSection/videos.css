@@ -1,5 +1,6 @@
 .wrapper{
     padding-top: 40px;
+    padding-bottom: 200px;
     display: grid;    
     grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
     gap: 2rem;
@@ -9,7 +10,7 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: space-between;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: transform 00ms ease-in;
 }
 .card_img{
